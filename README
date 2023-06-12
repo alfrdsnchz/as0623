@@ -1,4 +1,4 @@
-# Tool Rental Transaction Endpoint 
+#Tool Rental Transaction Endpoint 
 
 Springboot Rest API with single endpoint for renting tools.
 /checkout/date:{dd-mm-yyyy}/item/{tool-code:\\w{4}}/days/{day-count: 1 or more}/discount/{discount:0-100}
