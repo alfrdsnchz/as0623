@@ -1,0 +1,10 @@
+# Tool Rental Transaction Endpoint 
+
+Springboot Rest API with single endpoint for renting tools.
+/checkout/date:{dd-mm-yyyy}/item/{tool-code:\\w{4}}/days/{day-count: 1 or more}/discount/{discount:0-100}
+
+Post request must be run from Postman or simlar tool 
+
+To run test suite: ./mvnw test
+
+Rental Agreement output printed to console. Rental Agreement string attached to JSON returned from request.
